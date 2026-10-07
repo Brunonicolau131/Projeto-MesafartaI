@@ -1,0 +1,105 @@
+ETAPA 1 – MESAFARTAI
+Data: 06/10
+Disciplina: Machine Learning & Chatbots
+
+OBJETIVO DA ETAPA
+
+Estabelecer a estrutura inicial do projeto MESAFARTAI, organizando o repositório, a documentação, a identidade visual e o banco de dados da aplicação.
+
+REQUISITOS DA ETAPA 1
+
+1. REPOSITÓRIO GITHUB
+
+- Criar um repositório público com o nome PROJETO-MESAFARTAI.
+- Adicionar todos os integrantes do grupo como colaboradores.
+- Adicionar o professor como colaborador.
+
+2. DOCUMENTAÇÃO
+
+Criar o arquivo README.md na raiz do projeto contendo:
+
+- Título oficial: MESAFARTAI – Logística e Inteligência Assistiva no Combate à Fome.
+- Descrição resumida da solução.
+- Relação do projeto com a ODS 2 da ONU – Fome Zero e Agricultura Sustentável.
+- Nome completo e RA/RGM de cada integrante.
+
+Criar a pasta /docs contendo:
+
+- regras.txt
+- escopo_projeto.md
+- arquitetura_mesafartai.png
+- diag_fluxo_mesafartai.png
+
+O arquivo escopo_projeto.md deverá apresentar:
+
+- Problema de negócio abordado.
+- Público-alvo: Doadores e ONGs.
+- Intenções que serão reconhecidas pelo chatbot.
+- Dados que serão coletados durante as conversas.
+- Prompt utilizado para criação do logotipo.
+
+3. IDENTIDADE VISUAL
+
+- Criar um logotipo para o MESAFARTAI utilizando um gerador de imagens por Inteligência Artificial.
+- O logotipo deve representar alimentação, acolhimento e tecnologia/IA assistiva.
+- Salvar a imagem em:
+
+assets/logo_mesafartai.png
+
+- Registrar no arquivo docs/escopo_projeto.md o prompt exato utilizado para gerar o logotipo.
+
+4. BANCO DE DADOS
+
+Criar a pasta /src e o arquivo:
+
+src/database.py
+
+O script deverá utilizar SQLite3 para criar o banco de dados:
+
+mesafartai.db
+
+O banco deverá possuir as seguintes tabelas:
+
+- usuarios
+- doacoes
+- matches
+
+Também deverão ser inseridos dados iniciais de teste (seeds), incluindo ONGs e doadores.
+
+O arquivo database.py deverá ser executado e testado para verificar se o banco de dados é criado corretamente e sem erros.
+
+5. ESTRUTURA ESPERADA DO PROJETO
+
+PROJETO-MESAFARTAI/
+│
+├── README.md
+├── mesafartai.db
+│
+├── assets/
+│   └── logo_mesafartai.png
+│
+├── docs/
+│   ├── regras.txt
+│   ├── escopo_projeto.md
+│   ├── arquitetura_mesafartai.png
+│   └── diag_fluxo_mesafartai.png
+│
+└── src/
+    └── database.py
+
+6. ENTREGA
+
+Ao finalizar a etapa, verificar se todos os arquivos estão corretamente organizados no repositório público do GitHub.
+
+Enviar ao professor um e-mail contendo:
+
+Assunto:
+[MESAFARTAI] - Nome do Grupo - Turma Terça
+
+Corpo do e-mail:
+- Nome dos integrantes.
+- RGM/RA de cada integrante.
+- Curso.
+- Link direto para o repositório do GitHub.
+
+Esta etapa corresponde ao início da Fase 1 – Motor de IA e Estrutura (AC-3), com valor de 0,25 ponto.
