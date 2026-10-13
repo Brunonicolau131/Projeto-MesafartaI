@@ -16,3 +16,4 @@ A solução busca contribuir para a redução do desperdício de alimentos e fac
 
 Bruno de Morais Nicolau 132059
 Henry Freitas dos Santos 116923
+Amanda de Melo Alencar 122994
